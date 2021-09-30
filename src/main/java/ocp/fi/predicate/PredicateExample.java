@@ -51,6 +51,8 @@ public class PredicateExample {
                 .toList();
 
         lampsOn.stream().forEach(s -> System.out.println(s.toString()));
+        System.out.println("+++++++++++++++++++++++");
+        lampsOn.stream().forEach(System.out::println);
 
         System.out.println("---------------------");
         lamps.stream().forEach(s -> System.out.println(s.toString()));
